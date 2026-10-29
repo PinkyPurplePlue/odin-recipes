@@ -1,0 +1,28 @@
+body {
+    background-color: hsl(0, 23%, 89%);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+div.title {
+    background-color: hsl(240, 28%, 83%);
+    color: hsl(271, 100%, 35%);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid hsl(271, 100%, 35%);
+}
+
+div.recipes {
+    background-color: hsl(120, 25%, 81%);
+    color: hsl(271, 100%, 35%);
+    font-size: 24px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid hsl(271, 100%, 35%);
+}
+
+div#sandwich,
+div#pancit,
+div#bistek {
+    margin-bottom: 24px;
+}
